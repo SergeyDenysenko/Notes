@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "Notes.lc"]
+	url = https://github.com/SergeyDenysenko/Notes.git
+	fetch = +refs/heads/*:refs/remotes/Notes/*
+[gui]
+	wmstate = normal
+	geometry = 887x427+250+195 171 192
+	
