@@ -1,0 +1,47 @@
+<html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+    <script type="text/javascript" src="jquery-1.12.2.min.js"> </script>
+    <script src="script.js"></script>
+    <meta charset="utf-8"/>
+</head> 
+<body>
+    <header>
+    
+    </header>
+    <nav>
+        
+    </nav>
+    <main>
+        <div id = "reg">
+            <form id="registration">
+                <table>
+                    <tr>
+                        <td> Enter login:  </td>
+                        <td> Enter password: </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="text" maxlength="25" name="login" pattern="^[A-Za-z-0-9]+$" 
+                             title="You can use only English letters and numbers"> </td>
+                        <td> <input type="password" maxlength="20" name="password" pattern="[A-Za-z-0-9]{6,}" id="pass1"> </td>
+                        <td id="pass" rowspan="3"> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> Повторите пароль </td>
+                    </tr>    
+                    <tr>
+                        <td> </td>
+                        <td> <input type="password" maxlength="20" name="password2" pattern="[A-Za-z-0-9]{6,}" id="pass2" onkeyup="checkPass()"> </td>
+                        
+                    </tr>
+                    <tr> 
+                        <td colspan="2"> 
+                            <input type="submit"/>    
+                        </td>
+                    </tr> 
+            </form>
+        </div>    
+    </main>
+</body>   
+</html>
